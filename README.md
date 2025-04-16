@@ -53,3 +53,23 @@ pip install -r requirements.txt
 If requirements.txt is not present, install manually:
 pip install PyPDF2 Pillow
 
+☁️ Run on Google Colab (No Install Required)
+📥 STEP 1: Upload Files
+Use this code in a Colab cell to upload your files:
+from google.colab import files
+uploaded = files.upload()
+
+Select your PDF/image files when prompted.
+
+▶️ STEP 2: Run Script
+Paste and run the script after uploading files:
+
+📤 STEP 3: Download Output File
+To download the output file after processing, use:
+from google.colab import files
+files.download("output_filename.pdf")  # Replace with your actual output file
+
+🔗 Open in Google Colab
+
+PDF Merger in Colab
+Image Compressor in Colab
